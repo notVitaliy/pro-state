@@ -1,0 +1,31 @@
+{
+  "name": "@notvitaliy/pro-state",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:notVitaliy/pro-state.git"
+  },
+  "description":
+    "A prototype based state container with time travel, immutablity and type inheritence baked in.",
+  "main": "./src/pro-state.ts",
+  "author": "Vitaliy Isikov <visikov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "jest": "^22.4.2",
+    "rollup": "0.56.5",
+    "rollup-plugin-typescript2": "0.12.0",
+    "ts-jest": "^22.4.1",
+    "typescript": "2.7.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  }
+}
